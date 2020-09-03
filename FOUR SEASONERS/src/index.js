@@ -10,14 +10,14 @@
 
 // write a function to return the X co-ordinates.
 function find_X_Vertices(X1,Y1,X2,Y2,X3,Y3){
-
-    return null;
+    let P1 = (X1+X2+X3)/3;
+    return P1;
 }
 
 // write a function to return the Y co-ordinates.
 function find_Y_Vertices(X1,Y1,X2,Y2,X3,Y3){
-
-    return null;
+    let P2 = (Y1+Y2+Y3)/3;
+    return P2;
 }
 
 //Run SpecRunner.html to check the Testcase
